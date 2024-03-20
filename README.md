@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](index.html)
-- Live Site URL: [](https://your-live-site-url.com)
+- Live Site URL: [github](https://chiwykes.github.io/Advice-Generator/)
 
 ## My process
 
