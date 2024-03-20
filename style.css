@@ -1,0 +1,57 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.card{
+    width: 320px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 30px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#ad-id{
+    text-align: center;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#pattern{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+#dice{
+    position: absolute;
+    bottom: -20px;
+    background-color: hsl(150, 100%, 66%);
+    left: 167px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#ad-body{
+    margin-top:10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+@media (max-width: 330px){
+    #dice{
+        left:130px;
+    }
+}
